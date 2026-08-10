@@ -11,5 +11,8 @@ internal class Program
         c1 = new Conta();
         //como utilizar o objeto
         c1.numero = 19;
+        c1.titular = "Joãozinho";
+        c1.saldo = 2700.50;
+        Console.WriteLine($"Número: {c1.numero}\tTitular: {c1.titular}\tSaldo: {c1.saldo:c}");
     }
 }

@@ -14,12 +14,12 @@ namespace ClasseConta
         public double saldo;
 
         //Declaração dos métodos(funções)
-        void Sacar()
+        public void Sacar()
         {
 
         }
 
-        void Depositar()
+        public void Depositar()
         {
 
         }
