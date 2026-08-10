@@ -9,9 +9,9 @@ namespace ClasseConta
     public class Conta
     {
         //Declaração de atributos
-        int numero;
-        string titular;
-        double saldo;
+        public int numero;
+        public string titular;
+        public double saldo;
 
         //Declaração dos métodos(funções)
         void Sacar()
@@ -21,7 +21,7 @@ namespace ClasseConta
 
         void Depositar()
         {
-            
+
         }
     }
 }
