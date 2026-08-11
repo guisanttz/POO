@@ -31,5 +31,9 @@ internal class Program
         Console.Write("Informe o saldo: ");
         c2.saldo = Convert.ToDouble(Console.ReadLine());
         c2.MostrarAtributos();
+        Console.Write("Informe o valor a depositar: ");
+        double deposito = Convert.ToDouble(Console.ReadLine());
+        c2.Depositar(deposito);        
+        c2.MostrarAtributos();
     }
 }

@@ -21,12 +21,12 @@ namespace ClasseConta
         //Declaração dos métodos(funções)
         public void Sacar(double valorSaque)
         {
-            saldo = saldo - valorSaque;
+            saldo -= valorSaque;
         }
 
-        public void Depositar()
+        public void Depositar(double valorDeposito)
         {
-
+            saldo += valorDeposito;
         }
     }
 }
