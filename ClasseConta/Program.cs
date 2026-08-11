@@ -35,5 +35,8 @@ internal class Program
         double deposito = Convert.ToDouble(Console.ReadLine());
         c2.Depositar(deposito);        
         c2.MostrarAtributos();
+        c2.Transferir(10, c1);
+        c2.MostrarAtributos();
+        c1.MostrarAtributos();
     }
 }

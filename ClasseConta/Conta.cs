@@ -28,5 +28,11 @@ namespace ClasseConta
         {
             saldo += valorDeposito;
         }
+
+        public void Transferir(double valorTransferencia, Conta objContaDestino)
+        {
+            saldo -= valorTransferencia;
+            objContaDestino.saldo += valorTransferencia;
+        }
     }
 }
