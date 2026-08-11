@@ -13,10 +13,15 @@ namespace ClasseConta
         public string titular;
         public double saldo;
 
-        //Declaração dos métodos(funções)
-        public void Sacar()
+        public void MostrarAtributos()
         {
+            Console.WriteLine($"Número: {numero}\tTitular: {titular}\tSaldo: {saldo:c}");
+        }
 
+        //Declaração dos métodos(funções)
+        public void Sacar(double valorSaque)
+        {
+            saldo = saldo - valorSaque;
         }
 
         public void Depositar()
